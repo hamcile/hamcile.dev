@@ -1,0 +1,154 @@
+body{
+  background-color: rgb(236, 231, 225);
+}
+
+main{
+  font-family: "Lato", sans-serif;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  gap: 50px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  background-color: rgb(236, 231, 225);
+  width: 80vw;
+}
+
+h1{
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bolder;
+  margin-top: 33px;
+  color: rgb(46, 43, 43);
+  font-size: 18px;
+  font-family: "Edu QLD Beginner", cursive;
+  padding: 10px;
+  backdrop-filter: blur (40px);
+}
+
+h2{
+  text-transform: capitalize;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+h3{
+  font-size: 13px;
+  text-align: justify;
+  font-weight: bold;
+}
+
+p{
+  font-weight: 400;
+  font-size: 13px;
+  text-align: justify;
+}
+
+button{
+  text-transform: uppercase;
+  font-size: 10px;
+  display: block;
+  justify-self: end;
+  padding: 5px;
+  border-radius: 6px;
+  border: none;
+  background-color: rgb(46, 43, 43);
+  color: white;
+  cursor: pointer;
+  transition: background-color, color 0.3s;
+}
+
+button:hover{
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+.about-me-para{
+  overflow-y: auto;
+  height: 100px;
+  
+}
+
+
+
+.extras{
+  display: grid;
+  list-style-type: none;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  font-weight: 400;
+  font-size: 12px;
+  text-align: justify;
+  margin: 0px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+
+li{
+  font-size: 13px;
+  padding: 7px;
+  font-family: "Edu QLD Beginner", cursive;
+  font-weight: bold;
+  gap: 5px;
+}
+
+.software-img{
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-evenly;
+  padding: 0px;
+  margin: 0px;
+  background-color: rgb(240, 234, 225);
+  border-radius: 5px;
+}
+
+img{
+  width: 40px;
+  height: 40px;
+  opacity: 0.6;
+}
+
+.portfolio{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 650px;
+}
+
+.biz-table{
+  display: flex;
+  flex-direction: column;
+  font-size: 11px;
+}
+
+.tittle-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-weight: bolder;
+  font-family: "Edu QLD Beginner", cursive;
+  text-transform: uppercase;
+  padding: 6px;
+}
+
+.content-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-transform: capitalize;
+  row-gap: 4px;
+  padding: 6px;
+}
+
+.biz-link:hover{
+  text-decoration: underline;
+  
+}
+
+.biz-link{
+  cursor: pointer;
+  transition: text-decoration 1s;
+}

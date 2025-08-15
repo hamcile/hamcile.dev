@@ -1,0 +1,67 @@
+footer{
+  font-family: "Edu QLD Beginner", cursive;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(46, 43, 43);
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 9px;
+  padding: 20px 30px;
+  height: 100px;
+  justify-content: space-between;
+  padding-bottom: 7px;
+}
+
+.up-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.footer-paragragh{
+  padding: 0px;
+  margin: 0px;
+  font-size: 8px;
+  text-align: end;
+  font-style: italic;
+}
+
+.left-section{
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-footer{
+  border-radius: 17px;
+  height: 17px;
+  width: 80px;
+  object-fit: cover;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.right-section{
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+}
+
+.foot-nav{
+  padding: 3px;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.foot-nav:hover, span:hover{
+  text-decoration: underline;
+}
+
+span{
+  color: rgb(236, 123, 123);
+  font-weight: 300;
+  font-style: normal;
+  cursor: pointer;
+  text-align: center;
+}
